@@ -1,11 +1,11 @@
 const head = function(argument) {
-  if (argument !== undefined){
-  return argument[0]
-} else {
-  return undefined
-}
+  if (argument !== undefined) {
+    return argument[0];
+  } else {
+    return undefined;
+  }
 
-}
+};
 
 const assertEqual = function(actual, expected) {
   
@@ -14,11 +14,6 @@ const assertEqual = function(actual, expected) {
   } else {
     console.log(`❌ ${actual} !== ${expected}`);
   }
- 
-  
-
-
-
 };
 
 
