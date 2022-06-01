@@ -39,7 +39,7 @@ const middle = function(array) {
   let result = [];
   
   if (array.length <= 2) {
-    result = false;
+    result = [];
   } else if (array.length > 2 && array.length % 2 === 0) {
     result.push(array[(array.length / 2) - 1]);
     result.push(array[array.length / 2]);
@@ -52,4 +52,4 @@ const middle = function(array) {
 
 const arrayOdd = [1,5,5,8,5,6,7,8,0];
 const arrayEven = [1,2,3,4,5,6];
-console.log(middle(arrayOdd));
+console.log(assertArraysEqual(middle(arrayEven), [3]));
