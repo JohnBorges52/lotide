@@ -11,24 +11,19 @@ const assertArraysEqual = function(array1, array2) {
 
 
 const eqArrays = function(array1,array2) {
-  let result1 = [];
-
-  for (let i = 0; i < array1.length; i++) {
+  let result = array1.length === array2.length;
   
+  if(result){
+  for (let i = 0; i < array1.length; i++) {
     if (array1[i] !== array2[i]) {
-      result1.push('false');
+      result = false;
     } else {
-      result1.push('true');
+      result = true;
     }
   }
-
-  if (result1.indexOf('false') === -1) {
-    return true;
-  } else {
-    return false;
-  }
-
-};
+  return result  
+}
+}
 
 const assertEqual = function(actual, expected) {
 
@@ -41,5 +36,5 @@ const assertEqual = function(actual, expected) {
 
 
 
-console.log(assertArraysEqual([1,2,3],[1,2,33]));
+module.exports = assertArraysEqual;
 
