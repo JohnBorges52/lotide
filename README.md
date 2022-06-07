@@ -20,24 +20,24 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Call it:**
 
-`const results = _.tail([1, 2, 3]) // => [2, 3]`
-`const results = _./head([0,1,2]) // => [0]`
-`const results = _./tail([1,2,3,4,5]) // =>[2,3,4,5]`
-`const results = _./middle([1,2,3,4,5]) // => [3]`
-`const results = _./assertArraysEqual([1,2,3],[1,2,3]) // => They are not equal`
-`const results = _./assertEqual([1,2,3], [1,2,3]) // => They are equal`
-`const results = _./countLetters("Hello World") // => 3 l `
-`const results = _./countOnly(["Karl", "Salima","Agouhanna", "Fang", "Kavith", "Jason", "Salima", "Fang", "Joe"]) // => Samila 2`
-`const results = _./eqArrays ([1,2,3],[1,2,3] // => true`
-`const results = _./eqObjects({a:1,b:2,c:3}, {b:2,c:3,a:1}) // => true`
-`const results = _./findKey ({"Blue Hill": {stars: 1}, "Akaleri": {stars: 3}, "noma": {stars: 2}, "elBulli":{stars: 3}, "Ora":{stars:2 }, "Akelarre":{stars: 3}, stars === 2 ) // => noma`
-`const results = _./findKeyByValue({sci_Fi: "The Expanse", comedy: "Brooklyn Nine-Nine", drama: "The Wire"}), The wire // => drama`
-`const results = _./flatten([[1,2,3],4,[5,6]]) // =>[1,2,3,4,5,6]`
-`const results = _./letterPositions(letterPositions("hello").l // => [2,3]`
-`const results = _./map("ground", "control", "to", "major", "tom") // => ['g','c','t','m','t']`
-`const results = _./raisin[[1,2,3,4],2] // =>"Thats Good`
-`const results = _./takeUntil(["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"], ",") // => ["I've", "been", "to", "Hollywood"]`
-`const results = _./without([1,2,3,4,5],3) // =>[1,2,4,5]`
+* `const results = _.tail([1, 2, 3]) // => [2, 3]`
+* `const results = _./head([0,1,2]) // => [0]`
+* `const results = _./tail([1,2,3,4,5]) // =>[2,3,4,5]`
+* `const results = _./middle([1,2,3,4,5]) // => [3]`
+* `const results = _./assertArraysEqual([1,2,3],[1,2,3]) // => They are not equal`
+* `const results = _./assertEqual([1,2,3], [1,2,3]) // => They are equal`
+* `const results = _./countLetters("Hello World") // => 3 l `
+* `const results = _./countOnly(["Karl", "Salima","Agouhanna", "Fang", "Kavith", "Jason", "Salima", "Fang", "Joe"]) // => Samila 2`
+* `const results = _./eqArrays ([1,2,3],[1,2,3] // => true`
+* `const results = _./eqObjects({a:1,b:2,c:3}, {b:2,c:3,a:1}) // => true`
+* `const results = _./findKey ({"Blue Hill": {stars: 1}, "Akaleri": {stars: 3}, "noma": {stars: 2}, "elBulli":{stars: 3}, "Ora":{stars:2 }, "Akelarre":{stars: 3}, stars === 2 ) // => noma`
+* `const results = _./findKeyByValue({sci_Fi: "The Expanse", comedy: "Brooklyn Nine-Nine", drama: "The Wire"}), The wire // => drama`
+* `const results = _./flatten([[1,2,3],4,[5,6]]) // =>[1,2,3,4,5,6]`
+* `const results = _./letterPositions(letterPositions("hello").l // => [2,3]`
+* `const results = _./map("ground", "control", "to", "major", "tom") // => ['g','c','t','m','t']`
+* `const results = _./raisin[[1,2,3,4],2] // =>"Thats Good`
+* `const results = _./takeUntil(["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"], ",") // => ["I've", "been", "to", "Hollywood"]`
+* `const results = _./without([1,2,3,4,5],3) // =>[1,2,4,5]`
 
 ## Documentation
 
